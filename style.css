@@ -81,12 +81,14 @@ fieldset {
 
 .name {
   display: flex;
+  gap: 22px;
 }
 
 .input-wrapper {
   display: flex;
   flex-direction: column;
   width: 100%;
+  
 }
 
 fieldset legend {
@@ -98,6 +100,7 @@ fieldset legend {
   width: 100%;
   padding-bottom: 8px;
   text-align: center;
+  margin-top: 36px;
 }
 
 .input-wrapper select {
@@ -106,6 +109,7 @@ fieldset legend {
 
 .col-3 {
   display: flex;
+  gap: 32px;
 }
 
 button {
@@ -118,4 +122,57 @@ button {
   color: white;
   border: none;
   width: 100%;
+  margin-top: 65px;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
+  margin-top: 36px;
+  margin-bottom: 8px;
+}
+
+.input-wrapper label span {
+  margin-left: 12px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.input-wrapper label span:hover {
+  color: #635d70;
+}
+
+.input-wrapper input,
+.input-wrapper textarea,
+.input-wrapper select {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+  padding: 0 24px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #635d70;
+  width: 100%;
+}
+
+.input-wrapper textarea {
+  padding: 2px 5px;
+  height: 200px;
+}
+
+.input-wrapper select {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  width: 300px;
+}
+
+.checkbox-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  color: #4E4958;
 }
